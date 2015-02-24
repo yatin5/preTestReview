@@ -36,7 +36,34 @@ public class CPD3314PreTestReview {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         // TODO: Add code to run the doExercise methods here.
+        CPD3314PreTestReview d = new CPD3314PreTestReview();
+        System.out.println("enter your choice to run exercise :");
+        Scanner in = new Scanner(System.in);
+        int ch = in.nextInt();
+        switch (ch) {
+            case 1:
+                d.doExercise1();
+                break;
+
+            case 4:
+                d.doExercise4();
+                break;
+
+            case 5:
+                d.doExercise5();
+                break;
+            
+            case 7:
+                d.doExercise7();
+                break;
+
+            case 8:
+                d.doExercise8();
+                break;
+
+        }
     }
 
     /**
